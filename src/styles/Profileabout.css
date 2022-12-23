@@ -1,0 +1,230 @@
+@media only screen and (max-width:480px) {      
+    #tdone{
+        width: 100px;
+    }
+    #tdone img{
+        position: relative;
+        width: 100%;
+    }
+}
+@media only screen and (max-width:450px) {
+#tdtwo{
+ font-size: small;
+ width: 3rem;
+}
+#tdtwo div p{
+width: 4rem
+}
+#tdtwo p{
+padding-top: 3px;
+ vertical-align: middle;
+ width: 5rem;
+}
+#tdthree div p,#tdthree div p.ptwo{
+font-size: small;
+width:5rem;  
+}
+}
+.togglediv{
+display: none;
+}
+@media only screen and (max-width:450px) {
+#tdthree{
+display: none;
+}
+td#tdtwo div#tdtwodiv p.tagone,td#tdtwo div#tdtwodiv p.tagtwo{
+margin-left: 33px;
+}
+td#tdtwo div#tdtwodiv p.tagtwo{
+margin-left: 10px;
+}
+td#tdtwo p.fitness{
+margin-left: 33px;
+}
+.togglediv{
+display: block;
+}          
+}
+#booktrail{
+width:10rem;
+height:40px;
+margin: auto;
+width:7rem !important;
+font-weight: bolder;
+background:#7352FF;
+border-radius:10px;
+text-align:center;
+}
+#contactme{
+width:1rem !important;
+font-weight: bolder;
+background: white;
+border: 1px solid black;
+border-radius:10px;
+text-align:center;
+}
+.name{
+font-weight: bolder;
+font-size: 40px;
+}
+.aboutpara{
+max-width: 619px;
+}
+p.buttons{
+display: inline-block;
+width: 80px;
+text-align: center;
+text-transform: capitalize;
+background-color: #d1d1d1;
+border-radius: 10px;
+}
+@media only screen and (max-width: 991px) {
+p.buttons{
+display: inline-block;
+width: 60px;
+font-size: small;
+text-align: center;
+text-transform: capitalize;
+background-color: #d1d1d1;
+border-radius: 10px;
+}
+}
+.bodyflex{
+display: flex;
+justify-content: center;
+}
+#video{
+width: 100%;
+flex: 1;
+margin-right: 5%;
+
+border: 2px solid black;
+border-radius: 12px;
+padding: 0.4%;
+}
+#videotext{
+flex: 1;
+/* Check out my video about 30 min tagone for beginners */
+font-weight: bolder;
+font-style: normal;
+font-size: xx-large;
+margin-left: 5%;
+justify-content:end;
+align-items: flex-end;
+margin-right: 5%;
+}
+#videotext p{
+font-size: xx-large;
+max-width: 500px;
+} 
+p#contactmeani {
+transition-timing-function: ease-in-out;
+position: relative;
+animation: fromotion 3s 200;
+animation-direction: alternate;
+color: #7352FF;
+font-size: large;
+font-weight: bold;
+}
+@keyframes fromotion {
+0%   {left: 0px; top: 0px;}
+50%  { left: 40%; top: 0px;}
+100%  { left: 0px; top: 0px;}
+}
+@media only screen and (max-width: 991px) {
+.bodyflex {
+flex-direction: column;
+}
+}
+@media only screen and (max-width: 491px) {
+    #video{
+        margin-left: 4% !important;
+    }
+    }
+@media only screen and (max-width: 991px) {
+    #contactmeani {
+        display: none;
+    }
+    #video{
+        width: 90%;
+        margin-left: 30px;
+        justify-content: center;
+        border: 5px solid black;
+        border-radius: 12px;
+        padding: 1%;
+    }
+    }
+#emailinput{
+    border-radius: 10px;
+    padding: 1%;
+    width: 70%;
+}
+#subscribe{
+    margin-left: 5%;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+#subscribe p{
+    margin-left: 0%;
+}
+    #subscribebtn{
+        font-size:large;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+        border-radius: 10px;
+        height: 50px;
+        width: 200px;
+        background-color: #7352FF;
+    }
+    @media only screen and (max-width: 1000px) {
+        #contactmeani {
+            display: none;
+        }
+        #subscribe{
+            margin-right: 1%;
+            margin-left:1% ;
+            border: 0.5px solid rgb(124, 124, 124);
+            padding: 2%;
+        }
+        }
+        @media only screen and (max-width: 1070px) {
+            #subscribebtn{
+                font-size:medium;
+                font-weight: bold;
+                color: rgb(255, 255, 255);
+                border-radius: 10px;
+                height: 40px;
+                width: 100px !important;
+                background-color: #7352FF;
+            }}
+        @media screen and (min-width:400px) and (max-width:700px){
+            #profile{
+                height:fit-content;
+        }       
+        #forwhiteborder{
+            height: fit-content;
+        }}
+         #slider{
+            width:100%;
+        background-color: black;
+        color: white;
+        height: max-content;
+        padding-top: 150px;
+        
+         }
+         #containerdiv{
+             border-collapse: separate;
+         }
+         #containerdiv h1{
+
+             text-align: center;
+         }
+         @media screen and (min-width:1000px) and (max-width:1200px){
+            #subscribe{ 
+            margin-top: 30%;
+        }    }
+        @media screen and (min-width:1200px) and (max-width:1400px){
+            #subscribe{
+            
+            margin-top: 20%;
+        }    }

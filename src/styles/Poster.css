@@ -1,0 +1,31 @@
+
+#posterdiv{
+    background-color: #7352FF;
+    text-align: center;
+    height: 500px;
+}
+#posterheadingdiv{
+    color: white;
+    
+}
+#navcustom{
+    border: 1px solid white;
+    border-radius: 10px;
+}
+#navcustom:hover{
+    background-color: #ffffff;
+    color: black;
+    transform: scale(1.1) !important;
+}
+@media only screen and (max-width: 990px) {
+    
+#navcustom{
+    border: none;
+    border-radius: 10px;
+}
+    
+    }
+    #contactmee:hover{
+        background-color: black;
+        color: white;
+    }

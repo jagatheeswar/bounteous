@@ -1,0 +1,187 @@
+
+#profile{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    margin: 0 auto;
+    height: 1290px;
+    border: 10px solid #7352FF;
+    border-radius: 9px !important;
+    z-index: 99;
+    padding-left: 3%;
+    padding-top: 3%;
+    padding-right: 1%;
+}
+
+
+#forwhiteborder{
+    width: 80%;
+    margin: 0 auto;
+    position: absolute;
+    left: 10%;
+    top: 350px;
+    height: 1296px;
+    border: 3px solid white;
+    border-radius: 9px;
+}
+
+@media only screen and (max-width: 730px) {
+    #forwhiteborder{
+        left: 0%;
+        margin-right: 0%;
+        right: 0%;
+    }   
+    }
+#topcontainer{
+    display: flex;
+    height: 130px;
+}
+.topcontainerone{
+    
+    flex: 1;
+    background-color: orange;
+}
+.topcontainertwo{
+    
+    flex: 1;
+    background-color: white;
+    flex-shrink: 3;
+}
+.topcontainerthree{
+    flex-shrink: 0;
+    flex: 1;
+    background-color: green;
+}
+
+table{
+    border-collapse: separate !important;
+}
+#tdone{
+    width: 100px;
+    border:3px solid #7352FF;
+    
+    border-radius: 9%;
+    height: auto;
+    padding: 3px;
+    }
+    #tdtwo{
+        vertical-align: top;
+        padding-top: 6px;
+    }
+ #tdtwo p{
+    border-radius: 48px;
+        border: 3px solid #7352FF;
+        margin: 5px;
+        padding-left: 5px;
+        padding-right:5px ;
+        width: 5rem;    
+        text-align: center;
+        height: 35px;
+        vertical-align: middle;
+     text-align: center;
+ }   
+ #tdtwodiv{
+     display: flex;
+ }
+ td#tdtwo div#tdtwodiv p.tagone,td#tdtwo div#tdtwodiv p.tagtwo{
+     margin-left: 33px;
+ 
+ }
+ td#tdtwo div#tdtwodiv p.tagtwo{
+    margin-left: 3px;
+
+}
+ td#tdtwo p.fitness{
+    margin-left: 33px;
+}
+ #tdthree{
+     vertical-align: top;
+    
+ }
+ #tdthree div{
+     position: relative ;
+     vertical-align:baseline;
+ }
+ #tdthree div p{
+    width:10rem;
+    height:40px;
+    margin: auto;
+    
+    background:#7352FF;
+    border-radius:10px;
+    text-align:center;
+}
+ #tdthree div p.ptwo{
+    width:10rem;
+    height:40px;
+    margin:0 auto;
+    background: white;
+    border: 1px solid black;
+    border-radius:10px;
+    text-align:center;
+ }
+ @media only screen and (max-width: 730px) {
+    #forwhiteborder {
+        width: 100%;
+    }
+    #tdthree div p,#tdthree div p.ptwo{
+        width:8rem;
+        
+    }
+    td#tdtwo div#tdtwodiv p.tagone,td#tdtwo div#tdtwodiv p.tagtwo{
+        margin-left: 22px;
+    
+    }
+    td#tdtwo div#tdtwodiv p.tagtwo{
+       margin-left: 2px;
+   }
+    td#tdtwo p.fitness{
+       margin-left: 22px;
+   }
+    }
+    @media only screen and (max-width: 634px) {
+        #forwhiteborder {
+            width: 95%;
+        }
+        #tdthree div p,#tdthree div p.ptwo{
+            width:6rem;        
+        }
+        }
+        @media only screen and (max-width: 584px) {
+            #forwhiteborder {
+                width: 100%;
+            }
+            td#tdtwo div#tdtwodiv p.tagone,td#tdtwo div#tdtwodiv p.tagtwo{
+                margin-left: 11px;
+            }
+            td#tdtwo div#tdtwodiv p.tagtwo{
+               margin-left: 3px;
+           }
+            td#tdtwo p.fitness{
+               margin-left: 11px;
+           }
+            }
+            @media only screen and (max-width: 584px) {
+                #forwhiteborder {
+                    width: 100%;
+                }
+                }
+                @media only screen and (max-width: 560px) {
+                    #forwhiteborder{
+                        border: 0px solid white;
+                    }
+                    }
+                            #generalbuttons:hover{
+                                background-color: #7352FF;
+                                font-weight: bold;
+                                color: white;
+                                transform: scale(1.1);
+                                cursor: pointer;
+                                padding-bottom: 2px;
+                            }  
+                            td#tdthree div p.bigbuttons:hover{
+                                transform: scale(1.1);
+                                box-shadow: 0px 0px 13px black;
+                            }
+                            #subscribebtn:hover{
+                                transform: scale(1.1);
+                            }

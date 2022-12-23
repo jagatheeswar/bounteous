@@ -1,0 +1,44 @@
+#navbar{
+    z-index: 99 !important;
+    position: relative !important;
+    color:white !important;
+    background-color: #7352FF;
+}
+#navbardiv{
+    z-index: 99;
+    position: relative;
+    left: 0;
+}
+ul#myul li a{
+    
+    color: white ;
+}
+li:hover{
+    transform: scale(1.5);
+    color: rgb(0, 0, 0) !important;
+}
+ul#myul li a:hover{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+#navbutton{
+    color: white;
+    background-color: black;
+}
+@media only screen and (max-width: 991px) {
+    #navbardiv {
+        position: absolute;
+        left: 0px;
+        margin-top: 335px;
+        background-color: #2d225e;
+        width: 100%;
+        
+        opacity: 1;
+    }
+#navcustom:hover{
+    background-color: #ffffff;
+    color: black;
+    transform: scale(1.1) !important;
+    border: none;
+}
+    }

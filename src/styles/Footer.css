@@ -1,0 +1,94 @@
+                    #footer{
+                        width: 100%;
+                        height: fit-content;
+                        background-image: linear-gradient(to right, rgb(115, 70, 173) , rgb(87, 53, 209),rgb(52, 17, 150));
+                    }
+                    
+                    #footer p#powered{
+                        padding-top: 3px;                        
+                    }
+                    #footerlinks i{
+                        color:white;
+                    }
+#footer p{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+                        color: white;
+                        font-size: xx-large;
+                        font-weight: bold;
+                        align-items: center;
+                        vertical-align: middle;
+}
+                    #footer p img{
+                        color: white;
+                        font-size: large;
+                        position: relative;
+                        top: -8px;
+                    }
+                    span#rights{
+                        font-size: small;
+                        text-align: start;
+                        width: 300px;
+                        color: white;
+                    }
+       span#tpa{
+        font-weight: bold;
+           font-size: small;
+           float: right;
+           text-align: end;
+           color: white;
+       }             
+       @media only screen and (min-width: 991px) {
+    
+        #footer p{
+            text-align: start;
+            color: white;
+            font-size: large;
+            position: relative;
+            top: -8px;
+        }
+        }
+    .hide{
+        display: none;
+    }
+    .hideone{
+        color: red;
+        font-size: larger;
+        display: block;
+    }
+    
+#rightss{
+    padding-top: 30px;
+        color: rgb(255, 255, 255);
+        float: right;
+}
+.hid{
+    text-align: end;
+    float: right;
+}
+
+.lasthid{
+    display: none;
+}
+.lasthide{
+    display: none;
+}
+@media only screen and (min-width:991px){
+    
+    .lasthide{
+        display: block;
+    }
+    
+}
+@media only screen and (max-width:991px){
+    .hideone{
+        display: none;
+    }        
+    .lasthid{
+        display: block;
+    }
+    .hide{
+        display: block;
+    }        
+}
